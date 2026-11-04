@@ -1,0 +1,57 @@
+{
+  "generated": "2026-11-04T06:56:39",
+  "hosts": [
+    {
+      "host": "192.168.100.146",
+      "hostname": "",
+      "state": "up",
+      "ports": [
+        {
+          "port": 80,
+          "protocol": "tcp",
+          "state": "open",
+          "service": "http",
+          "product": "Apache httpd",
+          "version": "2.4.58",
+          "note": null
+        },
+        {
+          "port": 135,
+          "protocol": "tcp",
+          "state": "open",
+          "service": "msrpc",
+          "product": "Microsoft Windows RPC",
+          "version": "",
+          "note": null
+        },
+        {
+          "port": 139,
+          "protocol": "tcp",
+          "state": "open",
+          "service": "netbios-ssn",
+          "product": "Microsoft Windows netbios-ssn",
+          "version": "",
+          "note": null
+        },
+        {
+          "port": 443,
+          "protocol": "tcp",
+          "state": "open",
+          "service": "http",
+          "product": "Apache httpd",
+          "version": "2.4.58",
+          "note": null
+        },
+        {
+          "port": 445,
+          "protocol": "tcp",
+          "state": "open",
+          "service": "microsoft-ds",
+          "product": "",
+          "version": "",
+          "note": "SMB \u2014 check patch level, historically a common RCE target"
+        }
+      ]
+    }
+  ]
+}
